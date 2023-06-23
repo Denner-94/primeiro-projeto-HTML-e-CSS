@@ -1,0 +1,50 @@
+A proposta desse site, consiste na venda de sucos 100% naturais, e com valor acessivel para qualquer pessoa.
+
+Fontes:
+Champagne & Limousines
+Geosanslight
+
+Paleta de Cores:                                               
+#FFCC4D
+#EE9644
+#F1723D
+#F6B28B
+
+Paleta do gradiente:
+#f44336
+#f5cb61
+---------------------------------------------
+
+1- HEADER
+LOGO
+ - Tropical
+
+NAV
+Ancoras para links internos
+ - SOBRE| COMUNIDADE| CONTATOS
+
+
+2- MAIN
+50% da página cor
+
+TÍTULO
+h1- Intenso
+p - Sinta a diversidade dos sabores
+e refresque-se
+
+  
+IMAGEM
+De sucos e frutas - 400px
+
+EFEITO DE VIDRO
+h2- Sabor, sensação e pureza
+p- nutrientes e vitaminas para o seu dia.
+
+BOTÃO
+p- Beba-me 
+
+
+
+
+
+
