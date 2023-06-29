@@ -43,7 +43,7 @@ header{
     justify-content: space-around;
     padding: 5px;
     box-shadow: 1px 0px 15px rgba(0, 0, 0, 0.239);
-    width: 100%;
+    min-width:300px;
     max-height: 150px;
     
 }
@@ -55,24 +55,28 @@ header{
 .cabecalho-nav{
     display:flex;
     flex-wrap: wrap;
-    gap:20px;
-    
-    
+    gap:15px; 
 }
 .cabecalho-nav-itens{
     color: black;
     font-size: 23px;
     font-family:geo;
     font-weight: bold;
+    padding: 5px;
     
 }
+.cabecalho-nav-itens:hover{
+    background:linear-gradient(to top, rgba(241, 115, 61, 0.747), rgba(246, 178, 139, 0.352));
+    border-radius: 15px;
+}
 main{
-    background-color: rgba(243, 230, 204, 0.242);
+    position: relative;
+    height: 100vh;
+    /*background-color: rgba(243, 230, 204, 0.242)*/;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     margin: auto;
-    height: 610px;
     max-width: 1000px;
     min-width: 300px;
 }
@@ -81,38 +85,30 @@ main{
     display: flex;
     flex-direction: column;
     justify-content:space-between;
+    
 
 }
 .conteudo-texto{
-    margin: 20px;
+    margin: 10px;
+    padding-top: 50px;
+    text-align: center;
 }
 .conteudo-texto  h1{
     font-family: cha;
-    font-size: 39px;
-    padding: 10px;
+    font-size: 49px;
+    padding: 5px;
 }
 .conteudo-texto > p{
-    font-size: 23px;
+    font-size: 30px;
 }
 
-.conteudo-imagem{
-    position: relative;
-
-}
-.conteudo-imagem > img{
-    width: 380px;
-    max-height: 350px;
-    margin-top: -50px;
-    margin-left: 130px;
-}
 .conteudo-secundario{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: -220px;
-    margin-left: 20px;
     width: 200px;
-    height: 250px;
+    height: 280px;
+    margin-left: 30%;
     background: rgb(255, 255, 255, 0.25);
     box-shadow: 0px 8px 32px 0 rgb(31, 38, 135, 0.37);
     backdrop-filter: blur(7px);
@@ -143,9 +139,22 @@ main{
 button > p{
     padding: 5px;
     font-family: cha;
+    font-weight: bold;
     font-size: 20px;
 }
+button:hover{
+    transform: scale(1.1, 1.1);
+}
 .segundo-plano{
-    background-color:var(--cor1-1);
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color:var(--cor1-1);
+}
+
+.segundo-plano > img{
+    margin-top: 60px;
+
+    
 }
